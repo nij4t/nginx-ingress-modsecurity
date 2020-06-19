@@ -15,3 +15,10 @@ The OWASP ModSecurity Core Rule Set (CRS) is a set of generic attack detection r
 The directory `/etc/nginx/owasp-modsecurity-crs` contains the [owasp-modsecurity-crs repository](https://github.com/SpiderLabs/owasp-modsecurity-crs).
 Using `enable-owasp-modsecurity-crs: "true"` we enable the use of the rules.
 
+---
+
+## References
+
+- [Compiling and Installing ModSecurity for NGINX Open Source](https://www.nginx.com/blog/compiling-and-installing-modsecurity-for-open-source-nginx/)
+- [ModSecurity Web Application Firewall](https://kubernetes.github.io/ingress-nginx/user-guide/third-party-addons/modsecurity/)
+- [NGINX-Ingress Alpine Dockerfile](https://github.com/nginxinc/kubernetes-ingress/blob/master/build/DockerfileForAlpine)
